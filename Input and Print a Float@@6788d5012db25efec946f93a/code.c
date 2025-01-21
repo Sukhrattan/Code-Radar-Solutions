@@ -1,13 +1,10 @@
 #include <stdio.h>
 
-float welcome(f) {
-    
-    scanf("%f",f);
-    return f;
-}
+
 
 int main() {
     float f;
-    printf("%s", welcome());
+    scanf("%f",&f);
+    printf("%f", f);
     return 0;
 }
