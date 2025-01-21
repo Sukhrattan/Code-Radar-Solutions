@@ -1,10 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    char string;
-    scanf("%c",&string);
-    while ((string != '\n' && string != ' ')){
-        printf("%c", string);
-    }
+    char string[] = "";
+    scanf("%s",&string);
+    printf("You entered: %s",string)
+    
     return 0;
 }
