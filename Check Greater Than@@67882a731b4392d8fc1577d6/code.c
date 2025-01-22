@@ -7,3 +7,4 @@ int main() {
         scanf("%d",&str[i]);
     };
     (str[0]>str[1])?printf("True"):printf("False");
+}
