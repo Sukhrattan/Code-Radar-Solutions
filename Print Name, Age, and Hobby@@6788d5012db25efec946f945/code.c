@@ -4,8 +4,8 @@ int main() {
     int age;
     char hobby[20];
     scanf("%s %d\n%s",&name,&age,&hobby);
-    printf("Name: %s", name);
-    printf("Age: %d",age);
-    printf("Hobby: %s",hobby);
+    printf("Name: %s\n", name);
+    printf("Age: %d\n",age);
+    printf("Hobby: %s\n",hobby);
     return 0;
 }
