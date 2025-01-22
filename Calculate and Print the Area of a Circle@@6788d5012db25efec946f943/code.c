@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define PI 3.1416
+#define PI 3.141592
 int main() {
     float radius,area;
     scanf("%f",&radius);
