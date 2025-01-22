@@ -1,11 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    char str[2];
+    int str[2];
     int i;
-    for( i =0;i<=1,i++){
-        scanf("%d",str[i]);
-    }
+    scanf("%d %d",str[0],str[1]);
+  
     if(str[0]>str[1]){
         printf("True");
 
