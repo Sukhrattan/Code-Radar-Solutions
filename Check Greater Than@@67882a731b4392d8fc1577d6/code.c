@@ -6,13 +6,4 @@ int main() {
     for(i=0;i<=1;i++){
         scanf("%d",&str[i]);
     }
-  
-    if(str[0]>str[1]){
-        printf("True");
-
-    }
-    else{
-        printf("False");
-    }
-    return 0;
-}
+    (str[0]>str[1])?printf("True"):printf("False");
