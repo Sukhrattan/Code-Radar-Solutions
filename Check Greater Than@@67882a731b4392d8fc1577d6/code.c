@@ -3,7 +3,7 @@
 int main() {
     int str[2];
     for(int i =0;i<=1,i++){
-        scanf("%d",str++);
+        scanf("%d",str[i]);
     }
     if(str[0]>str[1]){
         printf("True");
