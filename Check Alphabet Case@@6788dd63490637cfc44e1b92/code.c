@@ -5,7 +5,7 @@ int main() {
     int checker;
     scanf("%c",&ab);
     checker = ab;
-    if (checker < 97){
+    if (checker<= 90)and(checker >= 65){
         printf("Uppercase");
     }
     else{
