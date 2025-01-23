@@ -5,11 +5,14 @@ int main() {
     int checker;
     scanf("%c",&ab);
     checker = ab;
-    if (checker<= 90)and(checker >= 65){
+    if ((checker<= 90)&&(checker >= 65)){
         printf("Uppercase");
     }
-    else{
+    else if ((checker >=90)){
         printf("Lowercase");
+    }
+    else{
+        printf("Not an alphabet")
     }
     
     return 0;
