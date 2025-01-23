@@ -3,7 +3,7 @@
 int main() {
     char ab;
     int checker;
-    scanf("%c",&sb);
+    scanf("%c",&ab);
     checker = ab;
     if (checker < 97){
         printf("Uppercase");
