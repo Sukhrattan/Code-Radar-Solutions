@@ -9,7 +9,7 @@ int main() {
         }
         else if(num&(1<<i)){
             
-            
+            printf("%d",count);
             
             
         }
