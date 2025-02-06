@@ -42,12 +42,12 @@ int main(){
         i++;
     }
     if(num%2==0){
-        for(int x = counter-1;x>=0;x--){
+        for(int x = i-1;x>=0;x--){
             printf("%d",bin[x]);
         }
     }
     else{
-        for(int x =0;x<counter;x++){
+        for(int x =0;x<i;x++){
             printf("%d",bin[x]);
         }
     
