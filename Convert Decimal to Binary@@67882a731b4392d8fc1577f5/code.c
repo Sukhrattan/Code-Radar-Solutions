@@ -43,13 +43,13 @@ int main(){
         i++;
     }
     if(num%2==0){
-        for(int i = counter-1;i>=0;i--){
-            printf("%d",bin[i]);
+        for(int x = counter-1;x>=0;x--){
+            printf("%d",bin[x]);
         }
     }
     else{
-        for(int i =0;i<counter;i++){
-            printf("%d",bin[i]);
+        for(int x =0;x<counter;x++){
+            printf("%d",bin[x]);
         }
     return 0;
 }
