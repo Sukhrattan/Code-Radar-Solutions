@@ -41,16 +41,13 @@ int main(){
         num = num >> i;
         i++;
     }
-    if(num%2==0){
-        for(int x = i-1;x>=0;x--){
-            printf("%d",bin[x]);
-        }
+
+    for(int x = i-1;x>=0;x--){
+        printf("%d",bin[x]);
     }
-    else{
-        for(int x =0;x<i;x++){
-            printf("%d",bin[x]);
-        }
+
+
     
-    }
+    
     return 0;
 }
