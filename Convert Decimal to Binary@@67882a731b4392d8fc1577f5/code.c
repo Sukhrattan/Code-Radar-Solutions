@@ -5,7 +5,7 @@ int main() {
     int counter=0;
     scanf("%d",&num);
     if(num==0){
-        printf(0);
+        printf("0");
     }
     while(num!=0){
         bin[counter] = num % 2;
