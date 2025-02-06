@@ -25,16 +25,31 @@
 //     }
 //     return 0;
 // }
+
 //alternate method using bitwise operations
+
 int main(){
     int num,i=0;
+    int bin[32]; //considering 32 bit array for safe measures 
     int temp;
     scanf("%d",&num);
     temp = num;
+    if(num==0){
+        printf("0");
+    }
     while(temp!=0){
-        printf("%d",((num>>i)&1));
+        bin[i]= ("%d",((num>>i)&1));
         temp = temp /2;
         i++;
     }
+    if(num%2==0){
+        for(int i = counter-1;i>=0;i--){
+            printf("%d",bin[i]);
+        }
+    }
+    else{
+        for(int i =0;i<counter;i++){
+            printf("%d",bin[i]);
+        }
     return 0;
 }
