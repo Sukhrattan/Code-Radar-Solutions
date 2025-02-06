@@ -29,7 +29,7 @@
 int main(){
     int num;
     scanf("%d",&num);
-    for(int i =0;i<num;i++){
+    while(num%2!=0){
         printf("%d",((num>>i)&1));
     }
     return 0;
