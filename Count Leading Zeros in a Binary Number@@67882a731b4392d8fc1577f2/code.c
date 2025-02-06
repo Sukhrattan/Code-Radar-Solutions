@@ -8,11 +8,12 @@ int main() {
             count++;
         }
         else if(num&(1<<i)){
-            printf("%d",count);
+            
             
             
             count = 0;
         }
     }
+    printf("%d",count);
     return 0;
 }
