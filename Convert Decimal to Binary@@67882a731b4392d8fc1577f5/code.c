@@ -29,8 +29,9 @@
 int main(){
     int num;
     scanf("%d",&num);
-    while(num%2!=0){
+    while(num!=0){
         printf("%d",((num>>i)&1));
+        num = num /2;
     }
     return 0;
 }
