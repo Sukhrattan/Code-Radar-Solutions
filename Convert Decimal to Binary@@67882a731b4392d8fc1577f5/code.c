@@ -31,15 +31,14 @@
 int main(){
     int num,i=0;
     int bin[32]; //considering 32 bit array for safe measures 
-    int temp;
+
     scanf("%d",&num);
-    temp = num;
     if(num==0){
         printf("0");
     }
     while(temp!=0){
-        bin[i]= (((num>>i)&1));
-        temp = temp /2;
+        bin[i]= num&1;
+        num = num >> i;
         i++;
     }
     if(num%2==0){
