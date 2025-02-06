@@ -30,7 +30,7 @@ int main(){
     int num,i=0;
     int temp;
     scanf("%d",&num);
-    num = temp;
+    temp = num;
     while(temp!=0){
         printf("%d",((num>>i)&1));
         temp = temp /2;
