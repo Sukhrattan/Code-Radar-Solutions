@@ -27,11 +27,12 @@
 // }
 //alternate method using bitwise operations
 int main(){
-    int num;
+    int num,i=0;
     scanf("%d",&num);
     while(num!=0){
         printf("%d",((num>>i)&1));
         num = num /2;
+        i++;
     }
     return 0;
 }
