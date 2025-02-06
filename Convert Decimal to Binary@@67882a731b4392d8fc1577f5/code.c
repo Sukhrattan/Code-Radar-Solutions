@@ -20,7 +20,7 @@ int main() {
         }
         
     }
-    if(num=0){
+    if(num==0){
         printf(0);
     }
     return 0;
