@@ -7,7 +7,7 @@ int main() {
     while(num!=0){
         bin[counter] = num % 2;
         num = num/2;
-        counter++
+        counter++;
     }
     if(num%2==0){
         for(int i = counter-1;i>=0;i--){
