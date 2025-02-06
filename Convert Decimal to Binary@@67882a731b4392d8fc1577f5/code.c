@@ -27,7 +27,8 @@
 // }
 //alternate method using bitwise operations
 int main(){
-    int num,i=,temp;
+    int num,i=0;
+    int temp;
     scanf("%d",&num);
     num = temp;
     while(temp!=0){
