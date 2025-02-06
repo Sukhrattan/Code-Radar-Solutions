@@ -38,7 +38,7 @@ int main(){
     }
     while(num!=0){
         bin[i]= num&1;
-        num = num >> i;
+        num = num >> 1;
         i++;
     }
 
