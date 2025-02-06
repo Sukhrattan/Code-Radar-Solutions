@@ -36,7 +36,7 @@ int main(){
     if(num==0){
         printf("0");
     }
-    while(temp!=0){
+    while(num!=0){
         bin[i]= num&1;
         num = num >> i;
         i++;
