@@ -9,7 +9,7 @@ int main() {
         }
         else{
             
-            count = 0
+            count = 0;
             
             
         }
