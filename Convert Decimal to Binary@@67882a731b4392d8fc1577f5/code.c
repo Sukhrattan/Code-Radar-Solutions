@@ -51,6 +51,7 @@ int main(){
         for(int x =0;x<counter;x++){
             printf("%d",bin[x]);
         }
+    
+    }
     return 0;
-}
 }
