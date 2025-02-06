@@ -5,7 +5,7 @@ int main() {
     scanf("%d",&num);
     count=0;
     do{
-        count = count++
+        count++;
     }
     while(num&1);
         num = num>>1;
