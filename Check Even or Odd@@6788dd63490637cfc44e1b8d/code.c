@@ -2,8 +2,8 @@
 
 
 int main() {
-    int num1;
-    scanf("%d",&num1);
+    int num;
+    scanf("%d",&num);
     if(num&1){
         printf("Odd");
     }
