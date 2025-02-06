@@ -38,7 +38,7 @@ int main(){
         printf("0");
     }
     while(temp!=0){
-        bin[i]= ("%d",((num>>i)&1));
+        bin[i]= (((num>>i)&1));
         temp = temp /2;
         i++;
     }
