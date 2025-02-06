@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    int num,bin[32],counter=0;
+    int num,bin[32];
+    int counter=0;
     scanf("%d",&num);
     while(num!=0){
         bin[counter] = num % 2;
