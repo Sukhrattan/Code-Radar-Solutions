@@ -8,10 +8,7 @@ int main() {
             count++;
         }
         else{
-            
             count = 0;
-            
-            
         }
     }
     printf("%d",count);
