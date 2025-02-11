@@ -20,7 +20,7 @@ int bubbleSort(arr[],n){
     return arr;
 }
 
-int printArray(arr,n){
+void printArray(arr,n){
     for(int i = 0;i<n;i++){
         printf("%d",arr[i]);
     }
