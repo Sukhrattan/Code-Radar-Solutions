@@ -1,5 +1,5 @@
 #include <stdio.h>
-int bubbleSort(arr[],n){
+void bubbleSort(arr[],n){
     int swapcase;
     for(int i =0 ;i<n-1;i++){
         swapcase = 0;
@@ -17,12 +17,12 @@ int bubbleSort(arr[],n){
         }
 
     }
-    return arr;
+    
 }
 
-void printArray(arr,n){
+void printArray(arr[],n){
     for(int i = 0;i<n;i++){
-        printf("%d",arr[i]);
+        printf("%d ",arr[i]);
     }
 }
 
@@ -31,7 +31,7 @@ int main(){
     scanf("%d",&n);
     int arr[n];
     for (int i = 0;i<n;i++){
-        scanf("%d",arr[i]);
+        scanf("%d",&arr[i]);
     }
     bubbleSort(arr,n);
     printArray(arr,n);
