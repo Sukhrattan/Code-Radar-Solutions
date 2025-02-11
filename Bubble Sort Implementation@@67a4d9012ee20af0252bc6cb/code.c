@@ -15,7 +15,9 @@ int bubbleSort(arr[],n){
         if(swapcase == 0){
             break;
         }
+
     }
+    return arr;
 }
 
 int printArray(arr,n){
