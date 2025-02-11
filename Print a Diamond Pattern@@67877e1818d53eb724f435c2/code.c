@@ -15,7 +15,21 @@ int main(void){
         for(int x = 1;x<i;x++){
             printf("*");
         }
+        
         printf("\n");
+    }
+    for(int i = rows;i>0;i--){
+        for(k=1;k<rows-1;k++){
+            printf(" ");
+        }
+        
+        for(int j =0;j<i;j++){
+            printf("*");
+        }
+        for(int x = 1;x<i;x++){
+            printf("*");
+        }
+
     }
     
 }
