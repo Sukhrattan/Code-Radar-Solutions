@@ -7,7 +7,7 @@ int main (void){
         printf("%d",days[inp]);
     }
     else{
-        printf("Invalid month")
+        printf("Invalid month");
     }
     
 
