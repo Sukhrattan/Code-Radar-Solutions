@@ -4,7 +4,7 @@ int main (void){
     int inp;
     scanf("%d",&inp);
     if(inp>=1 && inp<=12){
-        printf("%d",&days[inp]);
+        printf("%d",days[inp]);
     }
     
 
