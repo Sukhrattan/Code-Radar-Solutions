@@ -22,7 +22,7 @@ void printArray(int arr[], int n) {
     for(int i = 0; i < n; i++) {
         printf("%d ", arr[i]);  // Add space for readability
     }
-    printf("\n");  // Newline for better output formatting
+    
 }
 
 int main() {
