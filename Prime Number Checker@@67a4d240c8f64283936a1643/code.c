@@ -1,8 +1,8 @@
 // Your code here...
 #include <stdio.h>
-int main(void){
-    int num,factors;
-    scanf("%d",&num);
+int isPrime(int num){
+    
+   
     factors = 0;
     for(int i =2;i<=num;i++){
         if(num%i==0){
@@ -11,10 +11,10 @@ int main(void){
 
     }
     if(factors==1){
-        printf("Prime");
+        return 1;
 
     }
     else{
-        printf("Not Prime");
+        return 0;
     }
 }
