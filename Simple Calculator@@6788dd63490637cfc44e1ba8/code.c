@@ -1,18 +1,18 @@
 #include <stdio.h>
 int main (void){
     int a,b;
-    char operation;
-    scanf("%d %d %*c%c", &a, &b, &operation);
-    if(operation == '+'){
+    char o;
+    scanf("%d %d %*c%c", &a, &b, &o);
+    if(o == '+'){
         printf("%d",a+b);
     }
-    else if(operation == '-'){
+    else if(o == '-'){
         printf("%d",a-b);
     }
-    else if(operation == '*'){
+    else if(o == '*'){
         printf("%d",a*b);
     }
-    else if (operation == '/'){
+    else if (o == '/'){
         if(b!=0){
             printf("%d",a/b);
         }
