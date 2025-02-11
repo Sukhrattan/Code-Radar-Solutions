@@ -3,7 +3,7 @@ int bubbleSort(arr,n){
     int swapcase;
     for(int i =0 ;i<n;i++){
         swapcase = 0;
-        for(int j=0;i<n;j++){
+        for(int j=0;j<n-i-1;j++){
             if(arr[j]>arr[j+1]){
                 int temp = arr[j];
                 arr[j] = arr[j+1];
@@ -16,11 +16,12 @@ int bubbleSort(arr,n){
             break;
         }
     }
+    return arr;
 }
 
-int printArray(arr,n){
+void printArray(arr,n){
     for(int i = 0;i<n;i++){
-        printf("%d",arr[i]);
+        printf("%d ",arr[i]);
     }
 }
 
