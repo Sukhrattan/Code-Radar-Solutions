@@ -6,8 +6,9 @@ int main (void){
     if(inp>=1 && inp<=12){
         printf("%d",days[inp]);
     }
-    else{
+    
 
     
+
 
 }
