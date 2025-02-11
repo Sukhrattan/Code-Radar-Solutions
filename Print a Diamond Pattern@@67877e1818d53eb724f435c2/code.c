@@ -19,7 +19,7 @@ int main(void){
         printf("\n");
     }
     for(int i = rows;i>0;i--){
-        for(k=1;k<i;k++){
+        for(k=1;k<rows-1;k++){
             printf(" ");
         }
         
