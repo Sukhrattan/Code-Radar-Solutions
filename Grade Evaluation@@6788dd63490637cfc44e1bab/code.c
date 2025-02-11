@@ -23,6 +23,6 @@ int main (void){
         
     }
     else{
-        print("Invalid Grade");
+        printf("Invalid Grade");
     }
 }
