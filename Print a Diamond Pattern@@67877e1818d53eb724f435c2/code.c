@@ -18,8 +18,8 @@ int main(void){
         
         printf("\n");
     }
-    for(int i = rows;i>0;i--){
-        for(k=1;k<rows-1;k++){
+    for(int l = rows;l>0;l--){
+        for(k=0;k<=rows-l;k++){
             printf(" ");
         }
         
