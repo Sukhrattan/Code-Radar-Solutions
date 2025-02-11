@@ -18,19 +18,19 @@ int main(void){
         
         printf("\n");
     }
-    for(int l = rows+1;l>0;l--){
-        for(k=0;k<=rows-l;k++){
-            printf(" ");
-        }
+    // for(int l = rows+1;l>0;l--){
+    //     for(k=0;k<=rows-l;k++){
+    //         printf(" ");
+    //     }
         
-        for(int j =0;j<l;j++){
-            printf("*");
-        }
-        for(int x = 1;x<l;x++){
-            printf("*");
-        }
+    //     for(int j =0;j<l;j++){
+    //         printf("*");
+    //     }
+    //     for(int x = 1;x<l;x++){
+    //         printf("*");
+    //     }
 
-        printf("\n");
-    }
+    //     printf("\n");
+    // }
     
 }
