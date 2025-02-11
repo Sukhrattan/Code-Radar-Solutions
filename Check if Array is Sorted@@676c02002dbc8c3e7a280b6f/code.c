@@ -15,9 +15,11 @@ int main(void){
         }
         if(swaps==0){
             printf("Sorted");
+            break;
         }
         else{
             printf("Not Sorted");
+            break;
         }
     }
     
