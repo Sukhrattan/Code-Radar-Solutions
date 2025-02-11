@@ -26,9 +26,7 @@ int main(void){
         for(int j =0;j<i;j++){
             printf("*");
         }
-        for(int x = 1;x<i;x++){
-            printf("*");
-        }
+
         printf("\n");
     }
     
