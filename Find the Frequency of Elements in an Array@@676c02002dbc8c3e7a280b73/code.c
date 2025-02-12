@@ -8,10 +8,13 @@ int main(void){
     }
     
     int rep[n];
+    for(int i = 0;i<n;i++){
+        rep[i]=0;
+    }
 
 
     for(int j=0;j<n;j++){
-        if(rep[j]==arr[j]){
+        if(rep[j]==1){
             continue;
         }
         int selected_index = j;
@@ -19,7 +22,7 @@ int main(void){
         for(int i =0;i<n;i++){
             if(arr[i]==arr[selected_index]){
                 num_count++;
-                rep[i] = arr[i];
+                rep[i] = 1;
                 
             }
         }
