@@ -8,7 +8,11 @@ int main(void){
     }
     int k;
     
+
     scanf("%d",&k);
+    if (k>n){
+        k = k%n;
+    }
     int temp[k];
     for (int x = 0; x < k; x++) {
         temp[x] = arr[n - k + x];  
