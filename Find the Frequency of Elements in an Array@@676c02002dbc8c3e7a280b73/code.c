@@ -12,7 +12,7 @@ int main(void){
         int num_count=0;
         for(int i =0;i<n;i++){
             if(arr[i]==arr[selected_index]){
-                num_count++
+                num_count++;
             }
         }
         printf("%d %d\n",arr[selected_index],num_count);
