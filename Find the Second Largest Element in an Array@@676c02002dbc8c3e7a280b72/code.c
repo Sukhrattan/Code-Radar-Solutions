@@ -4,7 +4,7 @@ int main(void){
     scanf("%d",&n);
     int arr[n];
     for(int i = 0; i<n ;i++){
-        scanf("%d",&arr[n]);
+        scanf("%d ",&arr[n]);
     }
     int swapdone;
     for(int i =0 ;i<n-1;i++){
