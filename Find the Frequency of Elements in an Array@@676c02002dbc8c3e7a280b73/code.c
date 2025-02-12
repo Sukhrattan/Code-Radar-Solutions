@@ -8,9 +8,9 @@ int main(void){
     }
     
     int rep[n];
-    for(int i = 0;i<n;i++){
-        rep[i]=0;
-    }
+    // for(int i = 0;i<n;i++){
+    //     rep[i]=0;
+    // }
 
 
     for(int j=0;j<n;j++){
