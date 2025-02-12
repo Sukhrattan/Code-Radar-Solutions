@@ -7,8 +7,9 @@ int main(void){
         scanf("%d",&arr[i]);
     }
     int k;
-    int temp[k];
+    
     scanf("%d",&k);
+    int temp[k];
     for (int x = 0; x < k; x++) {
         temp[x] = arr[n - k + x];  
         
@@ -22,7 +23,7 @@ int main(void){
         
     }
     for(int i = 0;i<n;i++){
-        printf("%d",arr[i]);
+        printf("%d ",arr[i]);
     }
 
 }
