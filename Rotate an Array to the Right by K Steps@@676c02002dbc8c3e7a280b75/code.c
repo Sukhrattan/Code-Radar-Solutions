@@ -9,8 +9,8 @@ int main(void){
     int k;
     int temp[k];
     scanf("%d",&k);
-    for(int x = n-1;x>=k;x--){
-        temp[x] = arr[n-k];
+    for(int x = 0;x<=k;x++){
+        temp[x] = arr[n-k+x];
         printf("%d ",temp[x]);
     }
 }
