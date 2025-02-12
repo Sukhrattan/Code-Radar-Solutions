@@ -8,7 +8,7 @@ int main(void){
     }
     int arr_rep[n];
     for(int j=0;j<n;j++){
-        if(arr_rep[j-1]!=arr[j]){
+        if(arr_rep[j]!=arr[j]){
             int selected_index = j;
         }
         else{
