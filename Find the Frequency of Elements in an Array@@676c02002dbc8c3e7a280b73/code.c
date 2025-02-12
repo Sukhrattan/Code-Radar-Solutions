@@ -6,23 +6,26 @@ int main(void){
     for(int i =0 ;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int arr_rep[n];
+    
+    int rep[n];
+    for(int i = 0;i<n;i++){
+        rep[i]=0;
+    }
+
+
     for(int j=0;j<n;j++){
-        if(arr_rep[j]!=arr[j]){
-            int selected_index = j;
-        }
-        else{
+        if(rep[j]==arr[j]){
             continue;
         }
-        
+        int selected_index = j;
         int num_count=0;
         for(int i =0;i<n;i++){
             if(arr[i]==arr[selected_index]){
                 num_count++;
-
+                rep[i] = arr[i];
+                
             }
         }
-        arr_rep[j]==arr[selected_index];
         printf("%d %d\n",arr[selected_index],num_count);
     }
 }
