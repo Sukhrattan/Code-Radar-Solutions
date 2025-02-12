@@ -11,6 +11,6 @@ int main(void){
     scanf("%d",&k);
     for(int x = n-1;x>=k;x--){
         temp[x] = arr[n-k+x];
-        printf("%d",temp[x]);
+        printf("%d ",temp[x]);
     }
 }
