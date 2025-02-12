@@ -5,8 +5,6 @@
         scanf("%d",&arr[i]);
     }
     int k;
-    
-
     scanf("%d",&k);
     if (k>n){
         k = k%n;
@@ -22,5 +20,5 @@
         arr[i]=temp[i];
     }
     for(int i = 0 ; i < n ; i++){
-        printf("%d",arr[i]);
+        printf("%d ",arr[i]);
     }
