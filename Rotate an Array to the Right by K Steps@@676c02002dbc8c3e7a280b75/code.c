@@ -15,11 +15,14 @@ int main(void){
     }
     for (int i = n - 1; i >= k; i--) {
         arr[i] = arr[i - k];
-        printf("%d ",arr[i]);
+        // printf("%d ",arr[i]);
     }
     for (int i = 0; i < k; i++) {
         arr[i] = temp[i];
-        printf("%d ",arr[i]);
+        // printf("%d ",arr[i]);
+    }
+    for(int i = 0;i<n;i++){
+        printf("%d",arr[i]);
     }
 
 }
