@@ -13,4 +13,7 @@ int main(void){
         temp[x] = arr[n - k + x];  
         printf("%d ", temp[x]);
     }
+    for (int i = 0; i < n - k; i++) {
+        arr[i] = arr[i + k];
+    }
 }
