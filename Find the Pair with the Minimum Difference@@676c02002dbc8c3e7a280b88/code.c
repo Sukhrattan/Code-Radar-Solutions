@@ -13,12 +13,15 @@ int main(void){
         for(int y = 0;y<n;y++){
             if(arr[x]>arr[y]){
                 diff = arr[x]-arr[y];
+                printf("%d ",diff);
             }
             else if(arr[x]<arr[y]){
                 diff = arr[y]-arr[x];
+                printf("%d ",diff);
             }
             if(min_diff>diff){
                 min_diff = diff;
+                printf("%d ",min_diff);
             }
             
         }
@@ -26,6 +29,6 @@ int main(void){
 
 
     }
-    printf("%d",min_diff);
+    
     return 0;
 }
