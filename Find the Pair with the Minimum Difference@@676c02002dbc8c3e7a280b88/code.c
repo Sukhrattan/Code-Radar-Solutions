@@ -29,6 +29,6 @@ int main(void){
 
 
     }
-    
+    printf("%d",min_diff)
     return 0;
 }
