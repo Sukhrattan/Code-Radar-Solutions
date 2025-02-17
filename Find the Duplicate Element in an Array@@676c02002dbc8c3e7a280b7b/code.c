@@ -7,7 +7,7 @@ int main(void){
         scanf("%d",&arr[i]);
     }
     for(int i = 0;i<n;i++){
-        int dupe_count = 0;
+        
         for(int x = i+1;x<n;x++){
             if(arr[x]==arr[i]){
                 printf("%d",arr[i]);
