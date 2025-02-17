@@ -9,14 +9,15 @@ int main(void){
     if(n==1){
         printf("-1");
     }
+    int diff;
     int min_diff = arr[0]-arr[1];
     for(int x = 0;x<n;x++){
         for(int y = 0;y<n;y++){
             if(arr[x]>arr[y]){
-                int diff = arr[x]-arr[y];
+                diff = arr[x]-arr[y];
             }
             else if(arr[x]<arr[y]){
-                int diff = arr[y]-arr[x];
+                diff = arr[y]-arr[x];
             }
             if(min_diff>diff){
                 min_diff = diff;
