@@ -4,11 +4,9 @@ int main(void){
     scanf("%d",&n);
     int arr[n];
     for(int i =0;i<n;i++){
-        scanf("%d",arr[i]);
+        scanf("%d",&arr[i]);
     }
-    if(n==1){
-        printf("-1");
-    }
+
     int diff;
     int min_diff = arr[0]-arr[1];
     for(int x = 0;x<n;x++){
