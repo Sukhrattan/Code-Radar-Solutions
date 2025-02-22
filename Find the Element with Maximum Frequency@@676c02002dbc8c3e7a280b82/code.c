@@ -7,10 +7,11 @@ int main (void){
         scanf("%d",&arr[i]);
     }
     int max_count = 0;
-    int count = 0;
+    
     int max;
     int max_index = 0;
     for(int i = 0;i<n;i++){
+        count = 0;
         for(int j = 0;j<n;j++){
             if(arr[i]==arr[j]){
                 count++;
