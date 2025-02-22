@@ -18,7 +18,7 @@ int main(void){
             }
         }
         if(flag == 1){
-            printf("%d",arr[i]);
+            printf("%d ",arr[i]);
         }
     }
     printf("%d",arr[n-1]);
