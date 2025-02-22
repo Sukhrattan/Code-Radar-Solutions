@@ -8,6 +8,7 @@ int main (void){
     }
     int max_count = 0;
     int count = 0;
+    int max;
     for(int i = 0;i<n;i++){
         for(int j = 0;j<n;j++){
             if(arr[i]==arr[j]){
@@ -16,7 +17,7 @@ int main (void){
         }
         if(count>max_count){
             max_count = count;
-            int max = arr[i];
+            max = arr[i];
         }
     }
     printf("%d",max);
