@@ -6,9 +6,18 @@ int main(void){
     for(int i = 0 ; i <n;i++){
         scanf("%d",&arr[i]);
     }
+    int flag = 1;
     for(int i = 0;i<n-1;i++){
-        if(arr[i]>=arr[i+1]){
-            printf("%d ",arr[i]);
+        for(int j = i+1;j<=n-1,j++){
+            if(arr[i]>=arr[j]){
+                flag = 1;
+            }
+            else{
+                flag = 0;
+            }
+        }
+        if(flag == 1){
+            printf("%d",arr[i]);
         }
     }
     printf("%d",arr[n-1]);
