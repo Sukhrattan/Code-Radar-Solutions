@@ -6,8 +6,8 @@ int main (void){
     for(int i = 0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int max_count = 0;
-    int count = 0;
+    int max_count = 1;
+    int count = 1;
     int max;
     int max_index = 0;
     for(int i = 0;i<n;i++){
