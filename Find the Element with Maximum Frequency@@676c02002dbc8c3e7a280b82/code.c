@@ -20,7 +20,7 @@ int main (void){
         if(count>max_count){
             max_count = count;
             max_index = i;
-            printf("%d ",arr[max_index]);
+            
         }
         else if(count == max_count){
             if(arr[max_index]>arr[i]){
@@ -28,6 +28,6 @@ int main (void){
             }
         }
     }
-    // printf("%d",arr[max_index]);
+    printf("%d",arr[max_index]);
     return 0;
 }
