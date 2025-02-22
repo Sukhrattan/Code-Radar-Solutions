@@ -26,6 +26,6 @@ int main (void){
             }
         }
     }
-    printf("%d",max);
+    printf("%d",arr[max_index]);
     return 0;
 }
