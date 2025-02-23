@@ -10,11 +10,12 @@ int main(void){
     int dummy[n];
     scanf("%d",&target);
     for(int i =0;i<n;i++){
+        
         int second_element = target - arr[i];
         for(int j = i+1;j<n;j++){
             if (arr[j] == second_element){
                 printf("%d %d\n",arr[i],second_element);
-                
+                break
             }
         }
     }
