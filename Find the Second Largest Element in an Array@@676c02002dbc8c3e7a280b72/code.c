@@ -24,8 +24,9 @@ int main(void){
 
     }
     printf("%d",arr[n-2]);
+    int same_element = 1;
     for(int i = 0;i<n;i++){
-        int same_element = 1;
+        
         for(int j =0;j<n;j++){
             if(arr[i]==arr[j]){
                 same_element = 1;
