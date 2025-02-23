@@ -24,4 +24,20 @@ int main(void){
 
     }
     printf("%d",arr[n-2]);
+    for(int i = 0;i<n;i++){
+        int same_element = 1;
+        for(int j =0;j<n;j++){
+            if(arr[i]==arr[j]){
+                same_element = 1;
+            }
+            else{
+                same_element=0;
+                break;
+            }
+        }
+    }
+    if(same_element==1){
+        printf(-1);
+    }
+    return 0;
 }
