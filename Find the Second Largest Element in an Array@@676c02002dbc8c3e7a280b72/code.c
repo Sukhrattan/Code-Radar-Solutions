@@ -23,7 +23,7 @@ int main(void){
         }
 
     }
-    printf("%d",arr[n-2]);
+    
     int same_element = 1;
     for(int i = 0;i<n;i++){
         
@@ -39,6 +39,9 @@ int main(void){
     }
     if(same_element==1){
         printf("-1");
+    }
+    else{
+        printf("%d",arr[n-2]);
     }
     return 0;
 }
