@@ -12,7 +12,7 @@ int main(void){
         int second_element = target - arr[i];
         for(int j = 0;j<n;j++){
             if (arr[j] == second_element){
-                printf("%d %d",arr[i],second_element);
+                printf("%d %d\n",arr[i],second_element);
             }
         }
     }
