@@ -8,7 +8,7 @@ int main(void){
 
     }
     int count;
-    int dupe[n];
+    int dupe=-1;
     for(int i =0;i<n;i++){
         count = 0;
         for(int j =0;j<n;j++){
@@ -17,13 +17,10 @@ int main(void){
             }
         }
         if(count>n/2){
-            printf("%d",arr[i]);
-            dupe[i]=arr[i];
+            dupe=arr[i];
             break;
         }
     }
-    if (!(dupe[n])) {
-        printf("-1");
-    }
+    printf("%d",dupe);
     return 0;
 }
