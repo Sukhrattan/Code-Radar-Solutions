@@ -22,7 +22,8 @@ int main(void){
             break;
         }
     }
-    if(!(dupe[n])){
+    if (!dupe[n]) {
         printf("-1");
     }
+    return 0;
 }
