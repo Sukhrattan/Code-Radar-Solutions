@@ -15,7 +15,7 @@ int main(void){
         for(int j = i+1;j<n;j++){
             if (arr[j] == second_element){
                 printf("%d %d\n",arr[i],second_element);
-                break
+                break;
             }
         }
     }
