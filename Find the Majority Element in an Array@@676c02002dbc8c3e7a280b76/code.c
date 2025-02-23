@@ -16,7 +16,7 @@ int main(void){
                 count++;
             }
         }
-        if(count>n/2){
+        if(count>=n/2){
             printf("%d",arr[i]);
             dupe[i]=arr[i];
             break;
