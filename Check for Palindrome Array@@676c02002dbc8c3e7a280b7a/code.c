@@ -14,7 +14,7 @@ int main(void){
     for(int i =0 ;i<n;i++){
         if(arr[i]!=temp[n-i-1]){
             flag = 0;
-            break
+            break;
         }
 
     }
