@@ -16,7 +16,7 @@ int main(void){
         mid = (low + high)/2;
         if(arr[mid]==target){
             flag = mid;
-            high = high - 1;
+            high = mid - 1;
             
         }
         else if(arr[mid]>target){
