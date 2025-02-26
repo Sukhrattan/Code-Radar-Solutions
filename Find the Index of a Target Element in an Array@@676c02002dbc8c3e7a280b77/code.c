@@ -12,7 +12,7 @@ int main(void){
     int high = n;
     int mid;
     for(int i = low;i<=high-1;i++){
-        mid = (low + high)/2
+        mid = (low + high)/2;
         if(arr[mid]==target){
             printf("%d",arr[i]);
         }
