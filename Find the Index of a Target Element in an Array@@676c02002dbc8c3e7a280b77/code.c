@@ -11,11 +11,13 @@ int main(void){
     int low = 0;
     int high = n-1;
     int mid;
+    int flag = 0;
     while(low<=high){
         mid = (low + high)/2;
         if(arr[mid]==target){
-            printf("%d",mid);
-            break;
+            flag = mid;
+            high = high - 1;
+            
         }
         else if(arr[mid]>target){
             high = high - 1;
@@ -25,7 +27,10 @@ int main(void){
         }
         
     }
-    if (arr[mid]!=target){
+    if (flag!=0){
+        printf("%d",mid);
+    }
+    else{
         printf("-1");
     }
 
