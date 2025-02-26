@@ -19,8 +19,8 @@ int main(void){
 
         }
         if(flag!=1){
-        printf("%d",arr[repeated]);
-        
+            printf("%d",arr[repeated]);
+            break;
         }
 
     }
