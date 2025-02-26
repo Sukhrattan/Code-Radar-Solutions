@@ -10,7 +10,7 @@ int main(void){
     int prime_count;
     int fact;
     for(int x = 0;x<n;x++){
-        int count = 0;
+        count = 0;
         for(int i = arr[x];i<=n/2;i++){
             if(arr[x]/i==0){
                 count++;
