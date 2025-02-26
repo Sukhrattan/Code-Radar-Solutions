@@ -8,7 +8,7 @@ int main(void){
     }
     int temp[n];
     for(int x = 0;x<n;x++){
-        temp[i] = arr[n-1-i];
+        temp[x] = arr[n-1-x];
     }
     flag = 1; 
     for(int i =0 ;i<n;i++){
