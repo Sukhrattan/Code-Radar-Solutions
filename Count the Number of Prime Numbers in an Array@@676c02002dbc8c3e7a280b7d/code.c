@@ -12,7 +12,7 @@ int main(void){
     for(int x = 0;x<n;x++){
         count = 0;
         for(int i = arr[x];i<=n/2;i++){
-            if(arr[x]/i==0){
+            if(arr[x]%i==0){
                 count++;
             }
         }
