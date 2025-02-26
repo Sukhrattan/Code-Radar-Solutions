@@ -7,5 +7,5 @@ int main(void){
         scanf("%d",arr[i]);
     }
     printf("%d",arr[n-1]*arr[n-2]);
-
+    return 0;
 }
