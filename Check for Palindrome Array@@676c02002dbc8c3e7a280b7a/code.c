@@ -10,15 +10,13 @@ int main(void){
     for(int x = 0;x<n;x++){
         temp[x] = arr[n-1-x];
     }
-    int flag = 0; 
+    int flag = 1;
     for(int i =0 ;i<n;i++){
-        if(arr[i]==temp[n-i-1]){
-            flag = 1;
-        }
-        else{
+        if(arr[i]!=temp[n-i-1]){
             flag = 0;
-            break;
+            break
         }
+
     }
     if(flag==1){
         printf("YES");
