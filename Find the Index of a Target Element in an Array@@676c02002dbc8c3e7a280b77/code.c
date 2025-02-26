@@ -27,7 +27,7 @@ int main(void){
         }
         
     }
-    if (flag!=0){
+    if (flag!=-1){
         printf("%d",mid);
     }
     else{
