@@ -15,6 +15,7 @@ int main(void){
         mid = (low + high)/2;
         if(arr[mid]==target){
             printf("%d",arr[mid]);
+            break;
         }
         else if(arr[mid]>target){
             high = high - 1;
