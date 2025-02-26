@@ -23,5 +23,10 @@ int main(void){
         else if(arr[mid]<target){
             low = low + 1;
         }
+        
     }
+    if (arr[mid]!=target){
+        printf("-1");
+    }
+
 }
