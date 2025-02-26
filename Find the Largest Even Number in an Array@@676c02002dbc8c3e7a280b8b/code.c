@@ -6,13 +6,13 @@ int main (void){
     for(int i = 0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int largest_even  = 0;
+    int largest_even  = arr[0];
     for(int i = 0 ; i<n;i++){
         if(arr[i]%2==0 && arr[i]>largest_even){
             largest_even= arr[i];
         }
     }
-    if(largest_even!=0){
+    if(largest_even!=arr[0]){
         printf("%d",largest_even);
     }
     else{
