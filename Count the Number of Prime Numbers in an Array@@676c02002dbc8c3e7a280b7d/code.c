@@ -14,9 +14,10 @@ int main(void){
         for(int i = 2;i<=arr[x]/2;i++){
             if(arr[x]%i==0){
                 count++;
+                break;
             }
         }
-        if(count==2){
+        if(count==1){
             prime_count++;
         }
 
