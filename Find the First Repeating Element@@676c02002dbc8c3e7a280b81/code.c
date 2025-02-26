@@ -18,13 +18,14 @@ int main(void){
             }
 
         }
-
-    }
-    if(flag!=1){
+        if(flag!=1){
         printf("%d",arr[repeated]);
         
+        }
+
     }
-    else{
+
+    if(flag == 1){
         printf("-1");
         
     }
