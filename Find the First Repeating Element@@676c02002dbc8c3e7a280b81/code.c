@@ -19,10 +19,10 @@ int main(void){
     }
     if(flag!=1){
         printf("%d",arr[i]);
-        break;
+        
     }
     else{
         printf("-1");
-        break;
+        
     }
 }
