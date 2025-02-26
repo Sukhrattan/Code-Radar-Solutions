@@ -10,10 +10,10 @@ int main(void){
     for(int x = 0;x<n;x++){
         temp[x] = arr[n-1-x];
     }
-    int flag = 1; 
+    int flag = 0; 
     for(int i =0 ;i<n;i++){
         if(arr[i]==temp[n-i-1]){
-
+            flag = 1;
         }
         else{
             flag = 0;
