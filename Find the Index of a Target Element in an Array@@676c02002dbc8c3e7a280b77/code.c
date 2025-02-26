@@ -9,18 +9,18 @@ int main(void){
     int target;
     scanf("%d",&target);
     int low = 0;
-    int high = n;
+    int high = n-1;
     int mid;
-    for(int i = low;i<=high-1;i++){
+    while(low<=high){
         mid = (low + high)/2;
         if(arr[mid]==target){
             printf("%d",arr[mid]);
         }
         else if(arr[mid]>target){
-            low = low + 1;
+            high = high - 1;
         }
         else if(arr[mid]<target){
-            high = high - 1;
+            low = low + 1;
         }
     }
 }
