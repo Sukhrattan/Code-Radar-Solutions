@@ -16,7 +16,7 @@ int main(void){
                 count++;
             }
         }
-        if(count==1){
+        if(count==2){
             prime_count++;
         }
 
