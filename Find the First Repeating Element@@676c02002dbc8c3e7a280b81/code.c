@@ -19,5 +19,8 @@ int main(void){
             printf("%d",arr[i]);
             break;
         }
+        else{
+            printf("-1");
+        }
     }
 }
