@@ -6,11 +6,13 @@ int main(void){
     for(int i = 0 ; i <n;i++){
         scanf("%d",&arr[i]);
     }
+    int repeated=0;
     for(int i =0 ; i<n;i++){
         int flag = 1;
         for(int j = i+1;j<n;j++){
             if(arr[i]==arr[j]){
                 flag = 0;
+                repeated = i;
                 break;
             }
 
@@ -18,7 +20,7 @@ int main(void){
 
     }
     if(flag!=1){
-        printf("%d",arr[i]);
+        printf("%d",arr[repeated]);
         
     }
     else{
