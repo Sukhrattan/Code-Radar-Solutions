@@ -6,6 +6,7 @@ int main(void){
     for(int i = 0 ; i <n;i++){
         scanf("%d",&arr[i]);
     }
+    int flag =1;
     int repeated=0;
     for(int i =0 ; i<n;i++){
         int flag = 1;
