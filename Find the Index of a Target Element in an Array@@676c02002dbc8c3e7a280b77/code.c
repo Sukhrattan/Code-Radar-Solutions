@@ -14,7 +14,7 @@ int main(void){
     for(int i = low;i<=high-1;i++){
         mid = (low + high)/2;
         if(arr[mid]==target){
-            printf("%d",arr[i]);
+            printf("%d",arr[mid]);
         }
         else if(arr[mid]>target){
             low = low + 1;
