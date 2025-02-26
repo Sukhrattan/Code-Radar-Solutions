@@ -17,6 +17,7 @@ int main(void){
         }
         else{
             flag = 0;
+            break;
         }
     }
     if(flag==1){
