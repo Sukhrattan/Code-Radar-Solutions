@@ -20,10 +20,10 @@ int main(void){
             
         }
         else if(arr[mid]>target){
-            high = high - 1;
+            high = mid - 1;
         }
         else if(arr[mid]<target){
-            low = low + 1;
+            low = mid + 1;
         }
         
     }
