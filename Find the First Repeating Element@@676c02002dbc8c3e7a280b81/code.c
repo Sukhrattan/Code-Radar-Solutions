@@ -21,6 +21,7 @@ int main(void){
         }
         else{
             printf("-1");
+            break;
         }
     }
 }
