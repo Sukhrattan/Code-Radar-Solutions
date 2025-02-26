@@ -7,11 +7,11 @@ int main(void){
         scanf("%d",&arr[i]);
     }
     int count;
-    int prime_count;
+    int prime_count =0;
     int fact;
     for(int x = 0;x<n;x++){
         count = 0;
-        for(int i = arr[x];i<=n/2;i++){
+        for(int i = 2;i<=arr[x]/2;i++){
             if(arr[x]%i==0){
                 count++;
             }
