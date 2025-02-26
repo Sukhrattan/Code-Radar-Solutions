@@ -17,7 +17,7 @@ int main (void){
     }
     else{
         if(arr[0]%2==0){
-            printf("%d",&arr[0]);
+            printf("%d",arr[0]);
         }
         else{
             printf("-1");
