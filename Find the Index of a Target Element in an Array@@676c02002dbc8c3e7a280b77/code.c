@@ -11,7 +11,7 @@ int main(void){
     int low = 0;
     int high = n-1;
     int mid;
-    int flag = 0;
+    int flag = -1;
     while(low<=high){
         mid = (low + high)/2;
         if(arr[mid]==target){
