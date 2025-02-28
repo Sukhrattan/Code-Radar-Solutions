@@ -12,7 +12,7 @@ int main(void){
             printf("-1");
             break;
         }
-        for(int j = n-1;j<i;j++){
+        for(int j = n-1;j>i;j++){
             if(max_num<arr[j]){
                 max_num=arr[j];
             }
