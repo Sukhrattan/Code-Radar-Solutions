@@ -18,9 +18,9 @@ int main(void){
                 max_num=arr[j];
             }
         }
-        if(arr[i]<max_num){
-            printf("%d ",max_num);
-        }
+        
+        printf("%d ",max_num);
+        
         
     }
 
