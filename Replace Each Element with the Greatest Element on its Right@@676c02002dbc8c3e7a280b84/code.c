@@ -8,7 +8,7 @@ int main(void){
     }
     int max_num = -1;
     for(int i = 0; i<n;i++){
-        if(i==n-1){
+        if(i==(n-1)){
             printf("-1");
             break;
         }
