@@ -6,8 +6,9 @@ int main(void){
     for(int i =0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int max_num = -1;
+    
     for(int i = 0; i<n;i++){
+        int max_num = -1;
         if(i==(n-1)){
             printf("-1");
             break;
