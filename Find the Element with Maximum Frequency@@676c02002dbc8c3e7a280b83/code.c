@@ -8,9 +8,10 @@ int main(void){
         scanf("%d",&arr[i]);
     }
     int max_num = 0;
+    int max_count = -1;
     for(int i =0;i<n;i++){
         int count = 0;
-        int max_count = -1;
+        
         for(int j = 0;j<n;j++){
             if(arr[i]==arr[j]){
                 count++;
