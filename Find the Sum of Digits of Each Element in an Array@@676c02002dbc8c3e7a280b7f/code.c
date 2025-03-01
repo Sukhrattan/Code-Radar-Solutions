@@ -14,7 +14,7 @@ int main(void){
             sum = sum + digit;
             temp = arr[i]/10;
         } 
-        printf("%d",sum);
+        printf("%d ",sum);
     
     }
 
