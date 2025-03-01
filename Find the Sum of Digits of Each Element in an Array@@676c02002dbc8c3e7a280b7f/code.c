@@ -9,6 +9,7 @@ int main(void){
     int sum = 0;
     for(int i = 0;i<n;i++){
         int temp = arr[i];
+        sum = 0;
         while(temp>0){
             int digit = arr[i]%10;
             sum = sum + digit;
