@@ -14,15 +14,9 @@ int main(void){
                 printf("%d",max_element);
                 return 0;
             }
-            else{
-                printf("-1");
-                return 0;
-            }
-            
-            
-                
-            
+
         }
+        
     }
 
 
