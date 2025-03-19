@@ -10,13 +10,11 @@ int main(void){
     for(int i = 0;i<n;i++){
         if(arr[i]>max_element){
             max_element=arr[i];
-            if(max_element>arr[i+1]){
+            if(max_element>arr[i+1]&&max_element>arr[i]){
                 printf("%d",max_element);
                 return 0;
             }
-            else{
-                continue;
-            }
+            
             
                 
             
